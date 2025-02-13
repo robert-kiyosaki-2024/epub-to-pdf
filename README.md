@@ -33,6 +33,26 @@ epub-to-pdf/
 - ebooklib-js-cli
 
 
+## 创建虚拟环境 
+
+```bash
+python -m venv venv 
+
+
+# windows 激活虚拟环境
+.\venv\Scripts\activate
+
+# linux 激活虚拟环境
+source venv/bin/activate
+
+# 退出虚拟环境
+deactivate  
+
+# 删除虚拟环境
+rm -rf venv 
+
+```
+
 ## 安装依赖
 
 ```bash
@@ -58,8 +78,5 @@ python epub-to-pdf.py
 
 ## 更新日志
 
-- 2024-01-01 初始化项目
-- 2024-01-02 添加依赖库
-- 2024-01-03 添加使用说明
-- 2024-01-04 添加注意事项
+- 2025-02-13 初始化项目
 
